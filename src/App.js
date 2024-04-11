@@ -6,6 +6,8 @@ import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
 
+
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
+          
         </Router>
       </ShopContextProvider>
     </div>
